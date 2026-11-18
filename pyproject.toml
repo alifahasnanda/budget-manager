@@ -1,7 +1,7 @@
 [project]
 name = "budget-manager"
 version = "0.1.0"
-description = "Add your description here"
+description = "CLI personal budget manager: add, list, summarize, import and back up transactions with validation"
 readme = "README.md"
 authors = [
     { name = "Alifa Hasnanda Putri", email = "331758391+alifahasnanda@users.noreply.github.com" }
@@ -10,7 +10,7 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-budget-manager = "budget_manager:main"
+budget-manager = "budget_manager.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
